@@ -1,0 +1,28 @@
+# Hudson's Personal Website
+
+A personal website for Hudson — 8th grader at Dexter Southfield, high school baseball player, future USC/Stanford/Columbia student.
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `index.html` | Home page — hero name, Bio section, Future Aspirations |
+| `baseball.html` | Baseball page — game details, mindset, path to the pros |
+| `contact.html` | Contact / About page — quick facts and reach-out info |
+| `style.css` | All shared styles — deep navy blue theme, Caveat script font |
+
+## Deploy to GitHub Pages
+
+1. Create a new repository on GitHub (e.g. `hudson-site`)
+2. Upload all four files to the root of the repo
+3. Go to **Settings → Pages**
+4. Under **Source**, select `Deploy from a branch` → `main` → `/ (root)`
+5. Click **Save** — your site will be live at:
+   `https://<your-username>.github.io/hudson-site/`
+
+## Design Notes
+
+- **Font**: [Caveat](https://fonts.google.com/specimen/Caveat) — bold, hand-drawn script for the logo and headings; DM Sans for body text
+- **Theme**: Deep navy (#050e2b) → sky blue (#3a9bdc) → neon cyan (#00d4ff)
+- **Effects**: Glowing name centerpiece, star-field background, faint person silhouette on home page
+- **Pages**: 3 pages (Home, Baseball, Contact) with shared nav and footer
