@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hudson · Baseball</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">H</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="baseball.html" class="active">Baseball</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+
+    <!-- page hero -->
+    <div class="page-hero" style="padding-top: 3rem;">
+      <div class="baseball-icon">⚾</div>
+      <h1 class="page-hero-name">Hudson</h1>
+      <p class="page-hero-sub">On the Diamond</p>
+    </div>
+
+    <div class="divider" style="margin-top: 2rem;"></div>
+
+    <!-- intro -->
+    <section class="section">
+      <p class="section-label">The Game</p>
+      <h2 class="section-title">Life on the Field</h2>
+
+      <p style="font-size: 0.95rem; line-height: 1.9; color: rgba(197,233,249,0.80); max-width: 680px; margin-bottom: 3rem;">
+        Baseball isn't just a sport — it's a lifestyle. As a <strong style="color: var(--ice); font-weight:500;">13-year-old
+        already competing at the high school level</strong>, Hudson plays with grit, focus, and a hunger to improve every
+        single day. From early morning batting practice to late-evening conditioning, the diamond is where his discipline
+        is forged.
+      </p>
+
+      <div class="card-grid">
+        <div class="card">
+          <span class="card-icon">🥎</span>
+          <h3 class="card-title">High School Team</h3>
+          <p class="card-text">Competing as an 8th grader on the high school squad is no small feat. It demands mental toughness and consistent performance beyond his age group.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">💪</span>
+          <h3 class="card-title">The Grind</h3>
+          <p class="card-text">Early practices, weight room sessions, film study. The game is 90% mental — Hudson treats every day as a chance to build his edge.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">🎯</span>
+          <h3 class="card-title">The Goal</h3>
+          <p class="card-text">Professional baseball is the target. Every strikeout, every home run, every hustle play is another step toward making it to the bigs.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- mindset -->
+    <section class="section">
+      <p class="section-label">Mindset</p>
+      <h2 class="section-title">What Drives Me</h2>
+
+      <ul class="asp-list">
+        <li class="asp-item"><span class="asp-dot"></span>Compete at the highest level possible — regardless of age</li>
+        <li class="asp-item"><span class="asp-dot"></span>Earn a Division I scholarship through hard work on and off the field</li>
+        <li class="asp-item"><span class="asp-dot"></span>Study the game: pitching mechanics, defensive positioning, situational hitting</li>
+        <li class="asp-item"><span class="asp-dot"></span>Be a leader in the dugout — lift teammates, stay locked in</li>
+        <li class="asp-item"><span class="asp-dot"></span>Balance elite athletics with strong academics at Dexter Southfield</li>
+        <li class="asp-item"><span class="asp-dot"></span>One day hear my name called in the MLB Draft</li>
+      </ul>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- path to the pros -->
+    <section class="section">
+      <p class="section-label">The Journey</p>
+      <h2 class="section-title">Path to the Pros</h2>
+
+      <div class="card-grid">
+        <div class="card" style="text-align: center;">
+          <div style="font-family: 'Caveat', cursive; font-size: 3.5rem; font-weight: 700; color: var(--neon); filter: drop-shadow(0 0 12px rgba(0,212,255,0.5));">8</div>
+          <div style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sky); margin-top: 4px;">Grade</div>
+          <p class="card-text" style="margin-top: 1rem;">Already on the high school roster. The clock starts now.</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div style="font-family: 'Caveat', cursive; font-size: 3.5rem; font-weight: 700; color: var(--neon); filter: drop-shadow(0 0 12px rgba(0,212,255,0.5));">D1</div>
+          <div style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sky); margin-top: 4px;">Target</div>
+          <p class="card-text" style="margin-top: 1rem;">USC, Stanford, or Columbia — programs that compete and develop pros.</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div style="font-family: 'Caveat', cursive; font-size: 3.5rem; font-weight: 700; color: var(--neon); filter: drop-shadow(0 0 12px rgba(0,212,255,0.5));">MLB</div>
+          <div style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sky); margin-top: 4px;">Dream</div>
+          <p class="card-text" style="margin-top: 1rem;">The big leagues. Everything else is prep for this moment.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © Hudson · Built with passion · Dexter Southfield '27
+    </footer>
+  </main>
+
+</body>
+</html>
